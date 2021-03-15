@@ -94,5 +94,9 @@
 	    	document.documentElement.setAttribute('data-theme', 'dark');
 	    	window.localStorage.setItem('theme', 'dark');
 	    }
+
+	    if(window.location.pathname === "/blog/") { // tweeter-timeline is colored from API call
+	        document.location.reload();
+	    }
     }
 </script>
