@@ -36,6 +36,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.19.2"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-seo-tag
   - jekyll-twitter-plugin
 
 # Exclude from processing.
