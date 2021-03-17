@@ -17,8 +17,8 @@ title: QuickPerf
 email: quickperftest@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Quickly evaluate and improve some performance-related properties
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://quickperf.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/quickperf.io" # the subpath of your site, e.g. /blog
+url: "https://guiragh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: QuickPerf
 github_username:  quick-perf
 
@@ -37,6 +37,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-seo-tag
+  - jekyll-twitter-plugin
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
